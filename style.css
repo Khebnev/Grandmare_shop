@@ -6,7 +6,12 @@ body, html {
 }
 
 .wrapper{
-    padding: 0 15%;
+    width: 1000px;
+
+}
+main{
+
+
 }
 .header{
     background-color: #585858;
