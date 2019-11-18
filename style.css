@@ -2,3 +2,18 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.wrapper{
+    padding: 0 15%;
+}
+.header{
+    background-color: #585858;
+    height: 200px;
+}
+.shop_name{
+    color: #cb273f;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 44px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
