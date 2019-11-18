@@ -17,3 +17,61 @@ body{
     font-size: 44px;
     font-family: 'Gloria Hallelujah', cursive;
 }
+/*Фон шапки*/
+
+.header__menu{
+    background-color: #c3c3c3;
+}
+.menu__list{
+
+
+}
+.menu__list-item{
+    display: inline-block;
+    margin-left: 140px;
+}
+.discont{
+    margin-left: 0;
+}
+.social__list{
+
+}
+.social__list-item{
+    display: inline-block;
+}
+
+.content{
+
+}
+.block1__women_spring-summer-fall{
+    background-color: #ffca18;
+    height: 200px;
+}
+.block__title{
+    font: 44px Arial;
+    text-align: center;
+    padding-top: 70px;
+}
+.block2__men_spring-summer-fall{
+    height: 200px;
+    background-color: #c4ff0d;
+}
+.block3__women_winter{
+    height: 200px;
+    background-color: #3f47cc;
+}
+.block4__men_winter{
+    height: 200px;
+    background-color: #ff7f26;
+}
+.block5__about-shoes{
+    height: 200px;
+    background-color: #8cfffa;
+}
+b97b56
+
+
+
+footer{
+    background-color: #b97b56;
+}
