@@ -1,6 +1,8 @@
-body{
-    margin: 0;
+body, html {
+    width: 100%;
+    height: 100%;
     padding: 0;
+    margin: 0;
 }
 
 .wrapper{
@@ -8,7 +10,7 @@ body{
 }
 .header{
     background-color: #585858;
-    height: 200px;
+
 }
 .shop_name{
     color: #cb273f;
@@ -23,21 +25,31 @@ body{
     background-color: #c3c3c3;
 }
 .menu__list{
-
-
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0px;
 }
 .menu__list-item{
     display: inline-block;
-    margin-left: 140px;
+    width: 120px;
+    text-align: center;
 }
 .discont{
-    margin-left: 0;
+    padding-left: 70px;
 }
 .social__list{
 
 }
 .social__list-item{
     display: inline-block;
+
+}
+.icon__fb img{
+
+}
+.search{
+   padding-left: 70px;
+
 }
 
 .content{
@@ -51,6 +63,8 @@ body{
     font: 44px Arial;
     text-align: center;
     padding-top: 70px;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 .block2__men_spring-summer-fall{
     height: 200px;
@@ -68,10 +82,18 @@ body{
     height: 200px;
     background-color: #8cfffa;
 }
-b97b56
 
 
 
 footer{
     background-color: #b97b56;
+    padding: 0 15%;
+    height: 50px;
+}
+.ad{
+    text-align: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 24px;
+    padding-top: 10px;
 }
