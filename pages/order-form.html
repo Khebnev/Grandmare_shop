@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Grandmare shop</title>
+    <link rel="stylesheet" href="../css/order-form.css">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge, chrome=1">
+</head>
+<body>
+    <div class="wrapper">
+        <main>
+            <div class="header">
+                <div class="header__background clearfix">
+                <a href="../index.html"><h1 class="shop-name">
+                            Grandmare_shop
+                        </h1></a>
+                    <img src="" alt=""> <!-- фон шапки -->
+                </div>
+                <div class="header__menu">
+                    <ul class="menu__list">
+                        <a href="#"><li class="menu__list-item discont">
+                                Акции
+                            </li></a>
+                        <a href=""><li class="menu__list-item order-form">
+                                Форма заказа
+                            </li></a>
+                        <a href=""><li class="menu__list-item order">
+                                Заказать
+                            </li></a>
+                        <li class="menu__list-item">
+                            <ul class="social__list">
+                                <li class="social__list-item">
+                                <a href="#"><img src="../img/facebook.png" alt="facebook"></a>
+                                </li>
+                                <li class="social__list-item">
+                                <a href="#"><img src="../img/instagram.png" alt="instagram"></a>
+                                </li>
+                                <li class="social__list-item">
+                                <a href="#"><img src="../img/telegram.png" alt="telegram"></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu__list-item search">
+                            <input type="search" class="input__search">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content">
+                <div class="order-form-page">
+                   <h1>Форма заказа</h1>
+                    <form action="#" name="my_order" method="post">
+                    <div class="content__block vendor-code">
+                        <label for="vendor-code" class="my__label">Введите артикул:</label> <!--Артикул -->
+                        <input id="vendor-code" type="text" placeholder="Введите артикул">
+                    </div>
+                    <div class="content__block size">
+                        <label for="size" class="my__label">Введите размер:</label>
+                        <input id="size" type="text" placeholder="Размер">
+                    </div>
+                    <div class="content__block surname">
+                            <label for="suraname" class="my__label">Введите Вашу фамилию:</label>
+                            <input id="surname" type="text" placeholder="Фамилия">
+                        </div>
+                        <div class="content__block name">
+                            <label for="name" class="my__label">Введите Ваше имя:</label>
+                            <input id="name" type="text" placeholder="Имя">
+                        </div>                 <div class="content__block patronymic">
+                            <label for="patronymic" class="my__label">Введите Ваше Отчество:</label>
+                            <input id="patronymic" type="text" placeholder="Отчество">
+                        </div>
+                        <div class="content__block tel">
+                            <label for="my__tel" class="my__label">Введите Ваш номер:</label>
+                            <input id="my__tel" type="tel" placeholder="Ваш номер телефона">
+                        </div>
+                        <div class="content__block city">
+                            <label for="my__city" class="my__label">Введите Ваш город:</label>
+                            <input id="my__city" type="text" placeholder="Ваш город">
+                        </div>
+                        <div class="content__block post">
+                            <label for="my__post" class="my__label">Введите отделение Новой почты:</label>
+                            <input id="my__post" type="text" placeholder="Отделение">
+                        </div>
+                        <div class="content__block box">
+                           <p>Вы хотите фирменную коробку? (Коробка +20 грн)</p>
+                            <label name="box" class="box__yes">
+                                <input type="radio" name="radio__box">Да
+                            </label>
+                            <label name="box" class="box__no">
+                                <input type="radio" name="radio__box">Нет
+                            </label>
+                        </div>
+                        <div class="content__buttons">
+                            <input type="submit" class="content__btn">
+                            <input type="reset" class="reset__btn" value="Сброс">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <div class="empty"></div>
+        <footer>
+            <div class="footer__advertising">
+                   <p class="ad">Реклама Google Ad Sens</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

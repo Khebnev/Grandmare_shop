@@ -113,75 +113,7 @@ a{
 
 }
 
-.content{
- background-color: #fff;
-}
-.content h2{
-    margin-block-start: 0;
-    margin-block-end: 0;
-}
-.block1__women_spring-summer-fall{
-    background-color: #ffca18;
-    height: 300px;
-/*    padding-top: 60px;*/
-/*    height: 300px;*/
-/*    opacity: 0.4;*/
-}
-.block1__women_spring-summer-fall  a:hover{
-    background-color: #00ff6c;
 
-}
-.block__title{
-    font: 44px Arial;
-    text-align: center;
-    padding-top: 100px;
-/*    padding-top: 70px;*/
-/*
-    margin-block-start: 0;
-    margin-block-end: 0;
-*/
-}
-
-.block2__men_spring-summer-fall{
-    height: 300px;
-    background-color: #c4ff0d;
-/*    margin-top: 100px;*/
-/*    padding-top: 60px;*/
-
-}
-.block2__men_spring-summer-fall a:hover{
-    height: 300px;
-    background-color: #0dff57;
-/*    margin-top: 100px;*/
-/*    padding-top: 60px;*/
-
-}
-.block3__women_winter{
-    height: 300px;
-    background-color: #3f47cc;
-/*    margin-top: 100px;*/
-/*    padding-top: 60px;*/
-}
-.block4__men_winter{
-    height: 300px;
-    background-color: #ff7f26;
-/*    margin-top: 100px;*/
-/*    padding-top: 60px;*/
-}
-.block5__about-shoes{
-    height: 200px;
-    background-color: #8cfffa;
-    padding: 0 50px;
-/*    margin-top: 100px;*/
-/*    margin-bottom: 100px;*/
-/*    padding-bottom: 50px;*/
-}
-.block__title_about{
-    font: Arial, Impact, Sans-Serif;
-    font-size: 24px;
-    text-align: center;
-    padding: 40px;
-}
 
 .ad{
     text-align: center;
@@ -192,21 +124,6 @@ a{
 }
 
 
-/*СТРАНИЦА Женская обувь (Весна/Лето/Осень)*/
-.content__women_spring-summer-fall-page{
-    height: 800px;
-    background-color: #ffca18;
-}
-.content__women_spring-summer-fall-page h1{
-    text-align: center;
-    font-size: 2em;
-    margin-block-start: 0;
-    margin-block-end: 0;
-}
-
-.content__women_spring-summer-fall-page  p{
-    text-align: center;
-}
 /*Мужская зимняя обувь*/
 
 .content___men_winter-page{
@@ -224,21 +141,10 @@ a{
 
 
 
-/*АКЦИИ*/
-.content__discont-page{
-    height: 800px;
-    background-color: #ffca18;
-}
-.content__discont-page h1{
-    text-align: center;
-    font-size: 2em;
-    margin-block-start: 0;
-    margin-block-end: 0;
-}
 
-.content__discont-page p{
-    text-align: center;
-}
+
+
+
 
 
 
