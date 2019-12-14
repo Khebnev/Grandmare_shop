@@ -5,19 +5,29 @@ body, html {
     margin: 0;
 }
 
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
 .wrapper{
     width: 1000px;
-
+    margin: 0 auto;
 }
 main{
 
 
 }
 .header{
-    background-color: #585858;
+
+    height: 260px;
 
 }
-.shop_name{
+.header__background{
+    height: 230px;
+    background-color: #585858;
+}
+.shop-name{
     color: #cb273f;
     text-align: center;
     font-size: 114px;
@@ -29,24 +39,35 @@ main{
 
 .header__menu{
     background-color: #c3c3c3;
+    height: 30px;
 }
 .menu__list{
     margin-block-start: 0;
     margin-block-end: 0;
     padding-inline-start: 0px;
-    font-size: 20px;
-    padding: 10px 0;
+/*    padding: 10px 0;*/
+    padding: 0 50px;
 }
 .menu__list-item{
     display: inline-block;
-    width: 120px;
+/*    width: 120px;*/
     text-align: center;
+    font-size: 20px;
+/*    padding: 0 50px;*/
+/*    align-content: center;*/
+    padding: 2px 0;
 }
 .discont{
     padding-left: 70px;
 }
+.order-form{
+    padding-left: 70px;
+}
+.order{
+    padding-left: 70px;
+}
 .social__list{
-
+    padding-left: 70px;
 }
 .social__list-item{
     display: inline-block;
@@ -63,20 +84,21 @@ main{
 .content{
  background-color: #fff;
 }
-h2{
+.content h2{
     margin-block-start: 0;
     margin-block-end: 0;
 }
 .block1__women_spring-summer-fall{
     background-color: #ffca18;
     height: 300px;
-    padding-top: 60px;
+/*    padding-top: 60px;*/
 /*    height: 300px;*/
 }
 .block__title{
     font: 44px Arial;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 100px;
+/*    padding-top: 70px;*/
 /*
     margin-block-start: 0;
     margin-block-end: 0;
@@ -85,30 +107,36 @@ h2{
 .block2__men_spring-summer-fall{
     height: 300px;
     background-color: #c4ff0d;
-    margin-top: 100px;
-    padding-top: 60px;
+/*    margin-top: 100px;*/
+/*    padding-top: 60px;*/
 
 }
 .block3__women_winter{
     height: 300px;
     background-color: #3f47cc;
-    margin-top: 100px;
-    padding-top: 60px;
+/*    margin-top: 100px;*/
+/*    padding-top: 60px;*/
 }
 .block4__men_winter{
     height: 300px;
     background-color: #ff7f26;
-    margin-top: 100px;
-    padding-top: 60px;
+/*    margin-top: 100px;*/
+/*    padding-top: 60px;*/
 }
 .block5__about-shoes{
-/*    height: 200px;*/
+    height: 200px;
     background-color: #8cfffa;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding-bottom: 50px;
+    padding: 0 50px;
+/*    margin-top: 100px;*/
+/*    margin-bottom: 100px;*/
+/*    padding-bottom: 50px;*/
 }
-
+.block__title_about{
+    font: Arial, Impact, Sans-Serif;
+    font-size: 24px;
+    text-align: center;
+    padding: 40px;
+}
 
 
 footer{
