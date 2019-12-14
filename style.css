@@ -38,6 +38,7 @@ main{
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 
@@ -118,6 +119,11 @@ a{
     height: 300px;
 /*    padding-top: 60px;*/
 /*    height: 300px;*/
+/*    opacity: 0.4;*/
+}
+.block1__women_spring-summer-fall  a:hover{
+    background-color: #00ff6c;
+
 }
 .block__title{
     font: 44px Arial;
@@ -129,9 +135,17 @@ a{
     margin-block-end: 0;
 */
 }
+
 .block2__men_spring-summer-fall{
     height: 300px;
     background-color: #c4ff0d;
+/*    margin-top: 100px;*/
+/*    padding-top: 60px;*/
+
+}
+.block2__men_spring-summer-fall a:hover{
+    height: 300px;
+    background-color: #0dff57;
 /*    margin-top: 100px;*/
 /*    padding-top: 60px;*/
 
