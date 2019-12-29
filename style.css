@@ -188,18 +188,23 @@ a{
     font: 50px Arial;
     text-align: center;
     padding-top: 65px;
-    color: #fff;
     color: #f6ff00;
 }
 
 .block4__men_winter{
-    height: 300px;
-    background-color: #ff7f26;
-
+    height: 196px;
+    background-image: url(img/block4__men_winter.png);
 }
+.title__block4{
+    font: 50px Arial;
+    text-align: center;
+    padding-top: 65px;
+    color: #005c0b;
+}
+
 .block5__about-shoes{
     height: 200px;
-    background-color: #8cfffa;
+    background-color: #5b607a;
     padding: 0 50px;
 }
 .block__title_about{
