@@ -137,12 +137,12 @@ a{
 
 
 /*CONTENT*/
-.content__women_spring-summer-fall-page{
+.content__men_spring-summer-fall-page{
     text-align: center;
 /*    background-color: dodgerblue;*/
 /*    height: 600px;*/
 }
-.content__women_spring-summer-fall-page h1{
+.content__men_spring-summer-fall-page h1{
     font-size: 50px;
     margin-block-start: 0;
     margin-block-end: 0;
@@ -151,15 +151,15 @@ a{
     padding-bottom: 60px;
 }
 
-.content__women_spring-summer-fall-page-list-line1 clearfix{
+.content__men_spring-summer-fall-page-list-line1 clearfix{
 
 }
-.content__women_spring-summer-fall-page-item{
+.content__men_spring-summer-fall-page-item{
     list-style: none;
     float: left;
     padding-left: 32px;
 }
-ю
+
 
 
 
