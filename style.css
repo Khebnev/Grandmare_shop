@@ -139,7 +139,7 @@ a{
 
 .block1__women_spring-summer-fall{
 /*    background-color: #ffca18;*/
-    height: 198px;
+    height: 194px;
     background-image: url(img/block1__women_spring-summer-fall.png);
 }
 /*
@@ -156,33 +156,42 @@ a{
 }
 */
 .title__block1{
-    font: 44px Arial;
+    font: 50px Arial;
     text-align: center;
     padding-top: 60px;
 }
 
 .block2__men_spring-summer-fall{
-    height: 300px;
-    background-color: #c4ff0d;
+    height: 196px;
+    background-image: url(img/block2__men_spring-summer-fall.png);
 /*    margin-top: 100px;*/
 /*    padding-top: 60px;*/
 }
+
 .title__block2{
-    font: 44px Arial;
+    font: 50px Arial;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 30px;
+    color: #fff;
 }
+/*
 .block2__men_spring-summer-fall a:hover{
     height: 300px;
     background-color: #0dff57;
-
-
 }
+*/
 .block3__women_winter{
-    height: 300px;
-    background-color: #3f47cc;
-
+    height: 191px;
+    background-image: url(img/block3__women_winter.png);
 }
+.title__block3{
+    font: 50px Arial;
+    text-align: center;
+    padding-top: 65px;
+    color: #fff;
+    color: #f6ff00;
+}
+
 .block4__men_winter{
     height: 300px;
     background-color: #ff7f26;
