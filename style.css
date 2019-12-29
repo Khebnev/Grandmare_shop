@@ -18,6 +18,8 @@ footer{
     background-color: #b97b56;
     padding: 0 15%;
     height: 50px;
+    width: 430px;
+    margin: 0 auto;
 }
 
 main{
@@ -221,54 +223,5 @@ a{
     font-size: 24px;
     padding-top: 10px;
 }
-
-
-/*СТРАНИЦА Женская обувь (Весна/Лето/Осень)*/
-.content__women_spring-summer-fall-page{
-    height: 800px;
-    background-color: #ffca18;
-}
-.content__women_spring-summer-fall-page h1{
-    text-align: center;
-    font-size: 2em;
-    margin-block-start: 0;
-    margin-block-end: 0;
-}
-
-.content__women_spring-summer-fall-page  p{
-    text-align: center;
-}
-/*Мужская зимняя обувь*/
-
-.content___men_winter-page{
-    height: 600px;
-    background-color: aqua;
-    width: 1000px;
-    text-align: center;
-}
-.content___men_winter-page h1{
-    font-size: 2em;
-    margin-block-start: 0;
-    margin-block-end: 0;
-}
-
-
-
-/*АКЦИИ*/
-.content__discont-page{
-    height: 800px;
-    background-color: #ffca18;
-}
-.content__discont-page h1{
-    text-align: center;
-    font-size: 2em;
-    margin-block-start: 0;
-    margin-block-end: 0;
-}
-
-.content__discont-page p{
-    text-align: center;
-}
-
 
 

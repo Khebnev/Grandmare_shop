@@ -19,6 +19,13 @@ footer{
     padding: 0 15%;
     height: 50px;
 }
+.ad{
+    text-align: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 24px;
+    padding-top: 10px;
+}
 
 main{
 
@@ -31,13 +38,13 @@ main{
 }
 .header__background{
     height: 230px;
-    background-color: #585858;
+    background-image: url(../img/header__bg.png);
 }
 .shop-name{
     color: #cb273f;
     text-align: center;
-    font-size: 114px;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 100px;
+    font-family: 'Gloria Hallelujah', 'Arial', 'Sans-Serif', cursive;
     margin-block-start: 0;
     margin-block-end: 0;
 }
@@ -56,81 +63,103 @@ a{
     margin-block-start: 0;
     margin-block-end: 0;
     padding-inline-start: 0px;
-/*    padding: 10px 0;*/
     padding: 0 50px;
 }
 .menu__list-item{
     display: inline-block;
-/*    width: 120px;*/
     text-align: center;
     font-size: 20px;
-/*    padding: 0 50px;*/
-/*    align-content: center;*/
-/*    padding: 2px 0;*/
 }
 .discont{
     padding-left: 70px;
-/*    color: black;*/
+    float: left;
+    padding-top: 18px;
 }
 .menu__list a:visited{
-/*    padding-left: 70px;*/
     color: black;
 }
 .order-form{
     padding-left: 70px;
+    float: left;
+    padding-top: 18px;
 }
 .order{
     padding-left: 70px;
+    float: left;
+    padding-top: 18px;
 }
 .social__list{
 
     margin-block-start: 0;
     margin-block-end: 0;
     padding-inline-start: 0px;
-/*    padding-left: 20px;*/
-/*    padding-right: 20px;*/
-/*        padding-left: 30px;*/
+
 }
 .social__list-item{
     display: inline-block;
     padding-left: 30px;
 
 }
+.facebook{
+    float: left;
+    padding-top: 12px;
+}
+.instagram{
+    float: left;
+    padding-top: 12px;
+}
+.telegram{
+    float: left;
+    padding-top: 12px;
+}
+
+.menu__list-item{
+    float: left;
+}
+
 .social__list-item img{
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
+/*
     position: relative;
     padding-top: 5px;
     padding-bottom: 5px;
     display: inline-block;
-
+*/
 }
-.icon__fb img{
 
-}
+
 .search{
-   padding-left: 30px;
-
+    padding-left: 30px;
+    float: left;
+    padding-top: 17px;
 }
 
-.content__women_winter-page{
-    height: 600px;
-    background-color: #b4c7c7;
+
+/*CONTENT*/
+.content__women_spring-summer-fall-page{
+    text-align: center;
+/*    background-color: dodgerblue;*/
+/*    height: 600px;*/
 }
-.content__women_winter-page h1{
-    font-size: 2em;
+.content__women_spring-summer-fall-page h1{
+    font-size: 50px;
     margin-block-start: 0;
     margin-block-end: 0;
     text-align: center;
-}
-.content__women_winter-page p{
-    font-size: 1.8em;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
-footer{
-    text-align: center;
-    padding: 5px;
+.content__women_spring-summer-fall-page-list-line1 clearfix{
+
 }
+.content__women_spring-summer-fall-page-item{
+    list-style: none;
+    float: left;
+    padding-left: 32px;
+}
+ю
+
+
+
