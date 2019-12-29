@@ -32,12 +32,13 @@ main{
 .header__background{
     height: 230px;
     background-color: #585858;
+    background-image: url(img/header__bg.png);
 }
 .shop-name{
     color: #cb273f;
     text-align: center;
-    font-size: 114px;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 100px;
+    font-family: 'Gloria Hallelujah', 'Arial', 'Sans-Serif', cursive;
     margin-block-start: 0;
     margin-block-end: 0;
 }
