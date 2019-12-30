@@ -16,8 +16,10 @@ body, html {
 }
 footer{
     background-color: #b97b56;
-    padding: 0 15%;
+/*    padding: 0 15%;*/
     height: 50px;
+    width: 1000px;
+    margin: 0 auto;
 }
 .ad{
     text-align: center;
@@ -130,7 +132,7 @@ a{
 
 
 .search{
-    padding-left: 30px;
+    padding-left: 20px;;
     float: left;
     padding-top: 17px;
 }
