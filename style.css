@@ -67,7 +67,7 @@ a{
     font-size: 20px;
 }
 .discont{
-    padding-left: 70px;
+    padding-left: 50px;
     float: left;
     padding-top: 18px;
 }
@@ -75,12 +75,12 @@ a{
     color: black;
 }
 .order-form{
-    padding-left: 70px;
+    padding-left: 50px;
     float: left;
     padding-top: 18px;
 }
-.order{
-    padding-left: 70px;
+.contact-us{
+    padding-left: 50px;
     float: left;
     padding-top: 18px;
 }
